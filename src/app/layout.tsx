@@ -5,7 +5,7 @@ import './globals.css'
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PrepWise — AI Interview Coach',
+  title: 'CVPrep — AI Interview Coach',
   description: 'Land your dream job with AI-powered interview preparation',
 }
 

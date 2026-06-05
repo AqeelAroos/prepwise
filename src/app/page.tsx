@@ -80,7 +80,7 @@ export default function Home() {
       </section>
 
       <footer style={{textAlign:'center', padding:'20px', borderTop:'1px solid rgba(255,255,255,0.05)', color:'rgba(255,255,255,0.15)', fontSize:'12px'}}>
-        © 2026 PrepWise · Built by Lubna Janaan Jiffry
+        © 2026 CVPrep · Built by Aqeel Aroos
       </footer>
     </main>
   )

@@ -57,7 +57,7 @@ export default function Analyze() {
       company: company || 'Unknown Company',
       status: 'applied',
       match_score: result.matchScore,
-      notes: `PrepWise match: ${result.matchScore}% — ${result.summary?.slice(0, 120)}`,
+      notes: `CVPrep match: ${result.matchScore}% — ${result.summary?.slice(0, 120)}`,
     })
     setTracking(false)
     if (!error) setTracked(true)
