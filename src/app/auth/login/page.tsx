@@ -22,13 +22,13 @@ export default function Login() {
   }
 
   return (
-    <div style={{minHeight:'100vh', background:'#0a0a0f', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'24px', fontFamily:'system-ui,sans-serif'}}>
+    <div style={{minHeight:'100vh', background:'#07090f', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'24px', fontFamily:'system-ui,sans-serif'}}>
       <Link href="/" style={{color:'white', fontWeight:800, fontSize:'24px', textDecoration:'none', marginBottom:'8px', letterSpacing:'-0.5px'}}>
-        Prep<span style={{color:'#c9a96e'}}>Wise</span>
+        CV<span style={{color:'#818cf8'}}>Prep</span>
       </Link>
       <p style={{color:'rgba(255,255,255,0.3)', fontSize:'14px', marginBottom:'32px'}}>Welcome back</p>
 
-      <div style={{width:'100%', maxWidth:'420px', background:'#111118', border:'1px solid rgba(255,255,255,0.08)', borderRadius:'20px', padding:'clamp(24px, 5vw, 36px)'}}>
+      <div style={{width:'100%', maxWidth:'420px', background:'#0d1117', border:'1px solid rgba(255,255,255,0.07)', borderRadius:'20px', padding:'clamp(24px, 5vw, 36px)'}}>
         <h2 style={{color:'white', fontWeight:700, fontSize:'22px', marginBottom:'24px'}}>Sign In</h2>
 
         {error && (
@@ -51,18 +51,18 @@ export default function Login() {
             />
           </div>
           <button type="submit" disabled={loading}
-            style={{width:'100%', background:'#c9a96e', color:'black', border:'none', borderRadius:'12px', padding:'15px', fontWeight:700, fontSize:'15px', cursor:'pointer', opacity:loading?0.6:1}}>
+            style={{width:'100%', background:'linear-gradient(135deg,#6366f1,#818cf8)', color:'white', border:'none', borderRadius:'12px', padding:'15px', fontWeight:700, fontSize:'15px', cursor:'pointer', opacity:loading?0.6:1, boxShadow:'0 4px 20px rgba(99,102,241,0.3)'}}>
             {loading ? 'Signing in...' : 'Sign In →'}
           </button>
         </form>
 
         <p style={{color:'rgba(255,255,255,0.25)', fontSize:'13px', textAlign:'center', marginTop:'24px', paddingTop:'24px', borderTop:'1px solid rgba(255,255,255,0.06)'}}>
           No account?{' '}
-          <Link href="/auth/signup" style={{color:'#c9a96e', textDecoration:'none'}}>Create one free</Link>
+          <Link href="/auth/signup" style={{color:'#818cf8', textDecoration:'none'}}>Create one free</Link>
         </p>
         <div style={{textAlign:'center', marginTop:'16px'}}>
   <Link href="/dashboard" style={{color:'rgba(255,255,255,0.3)', fontSize:'12px', textDecoration:'none'}}>
-    Just want to look around? <span style={{color:'#c9a96e', textDecoration:'underline'}}>Try the demo →</span>
+    Just want to look around? <span style={{color:'#818cf8', textDecoration:'underline'}}>Try the demo →</span>
   </Link>
 </div>
       </div>
