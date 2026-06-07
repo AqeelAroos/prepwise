@@ -9,7 +9,24 @@
 }
 
 body {
-  background: #0a0a0f;
-  color: #ede9e0;
+  background: #07090f;
+  color: #f1f5f9;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(129, 140, 248, 0.3);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(129, 140, 248, 0.2);
+  border-radius: 99px;
 }
